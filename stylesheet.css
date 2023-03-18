@@ -1,0 +1,45 @@
+.groceryList {
+    display: grid;
+    justify-content: center;
+}
+
+
+h1 {
+    text-align: center;
+    color: rgb(41, 153, 125);
+    font-size: 60px;
+}
+
+
+body {
+    background-color: gainsboro;
+}
+
+
+.secondHeader {
+    background-color: rgb(143, 223, 196);
+    border: 5px solid rgb(66, 122, 140);
+    border-radius: 10px;
+    display: block;
+    padding: 10px;
+    width: 627px;
+}
+
+/* padding and margins to make a space between */
+.itemBoxes {
+    background-color: yellowgreen;
+    border: 5px solid midnightblue;
+    border-radius: 10px;
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.pantryImage {
+    width: 250px;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
